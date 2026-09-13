@@ -53,6 +53,23 @@ It's public for two reasons:
   recurring competitor analysis that researches live each run and saves a
   dated snapshot, so every run after the first leads with what's actually
   *changed* rather than re-presenting a static landscape.
+- **[`skills/backlog-hygiene-audit`](skills/backlog-hygiene-audit/SKILL.md)** —
+  flags tickets with vague/untestable acceptance criteria, and catches scope
+  creep by diffing a ticket's current state against a saved snapshot of what
+  was actually approved.
+- **[`skills/terminology-consistency-check`](skills/terminology-consistency-check/SKILL.md)**
+  — scans product UI, docs, help center, and marketing content for the same
+  feature named differently in different places, with every inconsistency
+  traced back to its exact source.
+- **[`skills/flow-outline-from-prd`](skills/flow-outline-from-prd/SKILL.md)**
+  — turns PRD prose into a step-by-step flow outline with explicit decision
+  branches (plus a Mermaid diagram), so a designer can storyboard directly
+  instead of reverse-engineering the flow from paragraphs — and flags every
+  branch the PRD sets up but never resolves.
+- **[`skills/ux-pattern-consistency-audit`](skills/ux-pattern-consistency-audit/SKILL.md)**
+  — audits interaction/visual patterns (confirmations, error/empty/loading
+  states, button placement) across a set of screens for the same kind of
+  situation being handled differently in different places.
 - **[`case-studies/research-synthesis-with-claude.md`](case-studies/research-synthesis-with-claude.md)**
   — how a synthesis workflow cut a multi-day research write-up down to an
   afternoon, with the before/after.

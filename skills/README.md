@@ -10,6 +10,10 @@ Claude follows. Drop any folder into `.claude/skills/` (project) or
 | [`prd-writer`](prd-writer/SKILL.md) | Drafting a PRD from a rough idea, with the scoping questions asked up front |
 | [`competitive-analysis`](competitive-analysis/SKILL.md) | Turning competitor research *you already have* into a comparison with an actual recommendation (one-off, no research or history) |
 | [`competitor-watch`](competitor-watch/SKILL.md) | Full competitor analysis with live web research, saved as a dated snapshot each run so it can lead with what's *changed* since last time |
+| [`backlog-hygiene-audit`](backlog-hygiene-audit/SKILL.md) | Flagging tickets with vague/missing acceptance criteria, and catching scope drift by diffing current ticket state against its approval baseline |
+| [`terminology-consistency-check`](terminology-consistency-check/SKILL.md) | Finding a feature named differently across product, docs, help center, and marketing, traced back to source |
+| [`flow-outline-from-prd`](flow-outline-from-prd/SKILL.md) | Turning PRD prose into a step-by-step flow outline with explicit decision branches, ready for a designer to storyboard from |
+| [`ux-pattern-consistency-audit`](ux-pattern-consistency-audit/SKILL.md) | Finding where the same kind of situation (confirmations, errors, empty/loading states) is handled differently across screens |
 | [`roadmap-prioritization`](roadmap-prioritization/SKILL.md) | Scoring a backlog (RICE/ICE) and writing the sequencing narrative for a roadmap review |
 | [`database-chat-insights`](database-chat-insights/SKILL.md) | Answering a plain-language question against a database/warehouse — read-only, with mandatory confirmation before any query runs |
 | [`release-notes-draft`](release-notes-draft/SKILL.md) | Drafting release notes from GitHub PR URLs — a UAT/SME section plus a customer-facing section, ready for your review before going anywhere |
