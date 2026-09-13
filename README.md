@@ -45,6 +45,10 @@ It's public for two reasons:
   ask a database or warehouse a question in plain language and get a
   plain-language insight back, with read-only SQL enforcement and a mandatory
   human confirmation step before any query runs.
+- **[`skills/release-notes-draft`](skills/release-notes-draft/SKILL.md)** —
+  point it at one or more GitHub PR URLs and get back a release note draft: a
+  UAT/SME section (what changed, what to test, known limitations) and a
+  customer-facing section, both traceable back to source PRs/issues.
 - **[`case-studies/research-synthesis-with-claude.md`](case-studies/research-synthesis-with-claude.md)**
   — how a synthesis workflow cut a multi-day research write-up down to an
   afternoon, with the before/after.
