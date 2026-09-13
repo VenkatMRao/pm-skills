@@ -1,0 +1,8 @@
+sqlalchemy>=2.0
+anthropic>=0.40.0
+
+# Optional, install the one matching your database:
+# psycopg2-binary        # Postgres
+# pymysql                # MySQL
+# snowflake-sqlalchemy   # Snowflake
+# sqlalchemy-bigquery    # BigQuery

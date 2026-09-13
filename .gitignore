@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets / local env
+.env
+*.env.local
+
+# OS
+.DS_Store
+
+# Generated output from scripts
+*_tagged.csv
+scripts/nl-data-query/sample_data/sample.db
