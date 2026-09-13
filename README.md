@@ -49,6 +49,10 @@ It's public for two reasons:
   point it at one or more GitHub PR URLs and get back a release note draft: a
   UAT/SME section (what changed, what to test, known limitations) and a
   customer-facing section, both traceable back to source PRs/issues.
+- **[`skills/competitor-watch`](skills/competitor-watch/SKILL.md)** — a
+  recurring competitor analysis that researches live each run and saves a
+  dated snapshot, so every run after the first leads with what's actually
+  *changed* rather than re-presenting a static landscape.
 - **[`case-studies/research-synthesis-with-claude.md`](case-studies/research-synthesis-with-claude.md)**
   — how a synthesis workflow cut a multi-day research write-up down to an
   afternoon, with the before/after.

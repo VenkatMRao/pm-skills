@@ -14,3 +14,7 @@ venv/
 # Generated output from scripts
 *_tagged.csv
 scripts/nl-data-query/sample_data/sample.db
+
+# Defensive: never let real competitive-intel snapshots land in this public repo
+# if competitor-watch is ever accidentally invoked from here.
+/competitor-analysis/

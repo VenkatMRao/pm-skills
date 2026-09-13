@@ -1,6 +1,6 @@
 ---
 name: competitive-analysis
-description: Synthesize research on competitors into a structured comparison with strategic implications. Use when the user asks to analyze, compare, or benchmark competitors, or to build a competitive landscape.
+description: Synthesize research on competitors *that the user already has* into a structured comparison with strategic implications — a one-off pass with no live research and no memory of past runs. Use when the user asks to analyze, compare, or benchmark competitors, or to build a competitive landscape, from material they provide. For live web research and tracking what's changed since a previous analysis, use competitor-watch instead.
 ---
 
 # Competitive Analysis
