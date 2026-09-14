@@ -9,6 +9,11 @@ Turn a backlog into a defensible, sequenced roadmap — the scoring is the easy 
 the narrative explaining *why* the ranking is what it is, and what got explicitly
 deprioritized, is what actually survives a roadmap review.
 
+If some initiatives originate from sales call feedback, `sales-call-signal-mining`'s
+output (themes already carrying frequency and revenue-exposure data) maps
+naturally onto Reach/Impact inputs here — use it as a starting estimate rather
+than re-deriving those numbers from scratch.
+
 ## Process
 
 1. **Get the backlog and the framework.** Take whatever list of initiatives the

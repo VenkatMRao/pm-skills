@@ -67,6 +67,16 @@ It's public for two reasons:
   theme not ticket ID), what was decided, current risks/blockers, and how the
   week's work connects to the product's OKRs — including honestly flagging
   work with no clear OKR link.
+- **[`skills/sales-call-signal-mining`](skills/sales-call-signal-mining/SKILL.md)**
+  — mines sales call transcripts/notes across deals for recurring product
+  signal, weighted by deal size and won/lost outcome rather than just
+  frequency, with real skepticism applied to stated loss reasons that aren't
+  corroborated across independent deals.
+- **[`skills/launch-brief-from-prd`](skills/launch-brief-from-prd/SKILL.md)**
+  — turns a PRD into a marketing launch brief in benefit language, drafting
+  only the phase that's actually shipping (not the full roadmap vision) and
+  including an explicit "what NOT to claim" section so overclaiming gets
+  caught before it reaches marketing, not after.
 - **[`skills/competitor-watch`](skills/competitor-watch/SKILL.md)** — a
   recurring competitor analysis that researches live each run and saves a
   dated snapshot, so every run after the first leads with what's actually

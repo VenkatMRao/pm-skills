@@ -21,3 +21,5 @@ Claude follows. Drop any folder into `.claude/skills/` (project) or
 | [`metric-shift-correlator`](metric-shift-correlator/SKILL.md) | When a metric moves, correlates the timing against deploy history and other likely causes into a ranked hypothesis list |
 | [`stale-doc-audit`](stale-doc-audit/SKILL.md) | Flags PRDs/specs whose claims (blockers, metrics, target dates) no longer match current reality, verified against live sources rather than just last-edited date |
 | [`weekly-summary`](weekly-summary/SKILL.md) | A weekly update in non-technical language: what got done (from tickets), what was decided, current risks/blockers, and how it moves the product's OKRs |
+| [`sales-call-signal-mining`](sales-call-signal-mining/SKILL.md) | Mines sales call transcripts/notes across deals for recurring product signal, weighted by deal size and won/lost outcome, not just frequency |
+| [`launch-brief-from-prd`](launch-brief-from-prd/SKILL.md) | Turns a PRD into a marketing launch brief in benefit language, with an explicit "what NOT to claim" section to prevent overclaiming |

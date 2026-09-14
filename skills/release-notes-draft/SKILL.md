@@ -16,6 +16,11 @@ them first — anything it surfaces and the user confirms is real should get
 added to the PR description before this skill drafts from it, so the release
 note doesn't inherit the same gap.
 
+If a `launch-brief-from-prd` draft already exists for this feature, re-check
+it against what's actually shipping here — scope narrows between when a
+launch brief gets written and when the feature actually ships, and this
+skill's PR/ticket data is the source of truth for what's really going out.
+
 ## Inputs needed
 
 - One or more GitHub PR URLs from the user.
