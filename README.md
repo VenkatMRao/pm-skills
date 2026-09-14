@@ -49,6 +49,10 @@ It's public for two reasons:
   point it at one or more GitHub PR URLs and get back a release note draft: a
   UAT/SME section (what changed, what to test, known limitations) and a
   customer-facing section, both traceable back to source PRs/issues.
+- **[`skills/pr-behavior-change-scan`](skills/pr-behavior-change-scan/SKILL.md)**
+  — a pre-merge check that reads a PR's diff for user-facing behavior changes
+  the description/ticket never mentions, so they get confirmed before they
+  ship as a surprise instead of after.
 - **[`skills/competitor-watch`](skills/competitor-watch/SKILL.md)** — a
   recurring competitor analysis that researches live each run and saves a
   dated snapshot, so every run after the first leads with what's actually

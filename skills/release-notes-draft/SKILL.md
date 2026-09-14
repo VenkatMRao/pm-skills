@@ -10,6 +10,12 @@ can hand to business SMEs for UAT, then — after their own approval — to
 production users. This skill never sends anything anywhere itself; it produces a
 draft clearly marked as a draft, for the user to review, edit, and route.
 
+If the PRs going into this release haven't already been checked for
+undocumented behavior changes, consider running `pr-behavior-change-scan` on
+them first — anything it surfaces and the user confirms is real should get
+added to the PR description before this skill drafts from it, so the release
+note doesn't inherit the same gap.
+
 ## Inputs needed
 
 - One or more GitHub PR URLs from the user.
