@@ -53,6 +53,15 @@ It's public for two reasons:
   — a pre-merge check that reads a PR's diff for user-facing behavior changes
   the description/ticket never mentions, so they get confirmed before they
   ship as a surprise instead of after.
+- **[`skills/metric-shift-correlator`](skills/metric-shift-correlator/SKILL.md)**
+  — when a metric suddenly moves, correlates the timing against deploy
+  history and other likely causes (flags, seasonality, instrumentation
+  changes) into a ranked hypothesis list — replacing the informal "did
+  anything ship recently?" Slack message.
+- **[`skills/stale-doc-audit`](skills/stale-doc-audit/SKILL.md)** — flags
+  PRDs/specs whose claims (cited blockers, stated metrics, target dates) no
+  longer match current reality, verified against live sources rather than
+  just how old the doc looks.
 - **[`skills/competitor-watch`](skills/competitor-watch/SKILL.md)** — a
   recurring competitor analysis that researches live each run and saves a
   dated snapshot, so every run after the first leads with what's actually

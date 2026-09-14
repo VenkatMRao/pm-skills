@@ -18,3 +18,5 @@ Claude follows. Drop any folder into `.claude/skills/` (project) or
 | [`database-chat-insights`](database-chat-insights/SKILL.md) | Answering a plain-language question against a database/warehouse — read-only, with mandatory confirmation before any query runs |
 | [`release-notes-draft`](release-notes-draft/SKILL.md) | Drafting release notes from GitHub PR URLs — a UAT/SME section plus a customer-facing section, ready for your review before going anywhere |
 | [`pr-behavior-change-scan`](pr-behavior-change-scan/SKILL.md) | Pre-merge check: scans a PR's diff for user-facing behavior changes the description/ticket doesn't mention |
+| [`metric-shift-correlator`](metric-shift-correlator/SKILL.md) | When a metric moves, correlates the timing against deploy history and other likely causes into a ranked hypothesis list |
+| [`stale-doc-audit`](stale-doc-audit/SKILL.md) | Flags PRDs/specs whose claims (blockers, metrics, target dates) no longer match current reality, verified against live sources rather than just last-edited date |
