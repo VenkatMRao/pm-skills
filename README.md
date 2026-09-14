@@ -62,6 +62,11 @@ It's public for two reasons:
   PRDs/specs whose claims (cited blockers, stated metrics, target dates) no
   longer match current reality, verified against live sources rather than
   just how old the doc looks.
+- **[`skills/weekly-summary`](skills/weekly-summary/SKILL.md)** — a weekly
+  update in non-technical language: what got done (from tickets, grouped by
+  theme not ticket ID), what was decided, current risks/blockers, and how the
+  week's work connects to the product's OKRs — including honestly flagging
+  work with no clear OKR link.
 - **[`skills/competitor-watch`](skills/competitor-watch/SKILL.md)** — a
   recurring competitor analysis that researches live each run and saves a
   dated snapshot, so every run after the first leads with what's actually

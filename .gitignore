@@ -15,7 +15,8 @@ venv/
 *_tagged.csv
 scripts/nl-data-query/sample_data/sample.db
 
-# Defensive: never let real competitive-intel or backlog snapshots land in this
-# public repo if competitor-watch/backlog-hygiene-audit is ever run from here.
+# Defensive: never let real competitive-intel, backlog, or weekly-summary
+# snapshots land in this public repo if those skills are ever run from here.
 /competitor-analysis/
 /backlog-audit/
+/weekly-summaries/

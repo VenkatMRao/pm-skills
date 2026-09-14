@@ -20,3 +20,4 @@ Claude follows. Drop any folder into `.claude/skills/` (project) or
 | [`pr-behavior-change-scan`](pr-behavior-change-scan/SKILL.md) | Pre-merge check: scans a PR's diff for user-facing behavior changes the description/ticket doesn't mention |
 | [`metric-shift-correlator`](metric-shift-correlator/SKILL.md) | When a metric moves, correlates the timing against deploy history and other likely causes into a ranked hypothesis list |
 | [`stale-doc-audit`](stale-doc-audit/SKILL.md) | Flags PRDs/specs whose claims (blockers, metrics, target dates) no longer match current reality, verified against live sources rather than just last-edited date |
+| [`weekly-summary`](weekly-summary/SKILL.md) | A weekly update in non-technical language: what got done (from tickets), what was decided, current risks/blockers, and how it moves the product's OKRs |
